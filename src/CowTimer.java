@@ -13,7 +13,7 @@ public class CowTimer {
 	public static void main(String[] args) throws InterruptedException {
 		/* 1. Make a CowTimer, set the time and start it. */
 CowTimer ba = new CowTimer();
-ba.setTime(1);
+ba.setTime(20);
 ba.start();
 String speak = "Moo";
 
@@ -31,12 +31,12 @@ String speak = "Moo";
 for (int i = 0; i > -1; i++) {
 	System.out.println(minutes);
 
-Thread.sleep(600);
+Thread.sleep(60);
 
 minutes--;
 if(minutes== 0){
 playSound("Moo.wav");
-speak("");
+speak("eeeeeeeeeeeeeeeeeeeeeeeEEEEEEEEEEEEEEEEEEEEEEEEEEeeeeeeeeeeeeeeeeeeeeeeeeEEEEEEEEEEEEEEEEEEEEEEEEEEEeeeeeeeeeeeeeeeEEEEEEEEEEEEEEEEEEEEEEeeeeeeeeeeeeeeeeeeeeeee");
 }
 }
 		/*
